@@ -23,12 +23,12 @@
     };*/
      
      
-	this.request = function() {
+	this.request = function(key) {
 		this.initialize();	
 		console.log(ID+" requesting");   	
 	
-			var admob_ios_key = 'a151e6d43c5a28f';
-				var admob_android_key = 'a151e6d65b12438';
+				var admob_ios_key = key;
+				var admob_android_key = key;
 				var adId = (navigator.userAgent.indexOf('Android') >=0) ? admob_android_key : admob_ios_key;
 		
 				if ( admobExport ) {
