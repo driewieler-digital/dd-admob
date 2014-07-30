@@ -1,3 +1,5 @@
+Simple PhoneGap Plugin for adding a quick Banner Ad on top of your app. For Android.
+
 installation:
 
 Google Play Services
